@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="boss">Anuj Agrawal</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Anuj Agrawal</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="C:\Users\iitia\OneDrive\Pictures\Camera Roll\IMG-20231027-WA0056.jpg" alt="Profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Anuj Agrawal</h1>
+            <p class="section__text__p2">Student at IIT Kanpur</p>
+            <div class="btn-container">
+
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://search.pclub.in/'">
+                    Search
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/anuj-agrawal-66b41b295/'" />
+                <img src="./github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/Anuj1452'" />
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./iitk.jpg" alt="Profile picture" class="home-pic" />
+            </div>
+            <div class="home-details-container">
+                <div class="home-containers">
+
+                    <div class="tagline-container">
+
+                        <h3>Live the Life You Love</h3>
+
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p style="margin: 80px; font-size: larger;">
+
+                        Hello! My name is Anuj Agrawal, and I am currently a Second-year student at the Indian Institute
+                        of
+                        Technology Kanpur (IITK), pursuing a Bachelor of Technology (B.Tech) in Electrical Engineering.
+                        I love to learn new things, interact with new people, and make new friends.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SKILLS Section -->
+
+    <section id="skills">
+
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="home-containers">
+
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="../FAC Project/Python-Symbol.png" alt="skill 1" class="skill-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Python</h2>
+                    <p>Beginner</p>
+                </div>
+
+                <div class="details-container ">
+                    <div class="article-container">
+                        <img src="./c photo.png" alt="skill 2" class="c-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">C</h2>
+                    <p>Beginner</p>
+                </div>
+
+                <div class="details-container r">
+                    <div class="article-container">
+                        <img src="./CSS-Logo.jpg" alt="skill 3" class="skill-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">CSS</h2>
+                    <p>Beginner</p>
+                </div>
+
+                <div class="details-container ">
+                    <div class="article-container">
+                        <img src="./html photo.webp" alt="skill 2" class="c-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">HTML</h2>
+                    <p>Beginner</p>
+                </div>
+
+                <div class="details-container ">
+                    <div class="article-container">
+                        <img src="./canva.jpg" alt="skill 2" class="skill-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Canva</h2>
+                    <p>Intermediate</p>
+                </div>
+
+                <div class="details-container ">
+                    <div class="article-container">
+                        <img src="./autocad.png" alt="skill 2" class="c-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Autocad</h2>
+                    <p>Intermediate</p>
+                </div>
+
+                <div class="details-container ">
+                    <div class="article-container">
+                        <img src="./communication.webp" alt="skill 2" class="skill-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Communication</h2>
+                </div>
+
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="./team work.webp" alt="skill 2" class="skill-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Team Work</h2>
+                 </div>
+
+            </div>
+        </div>
+
+
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="skills-details-container">
+                <div class="home-containers">
+                    <div class="details-container">
+                        <div class="article-container">
+                            <img src="./intelli_invest photo.jpg" alt="Project 1" class="skill-img" />
+                        </div>
+                        <h2 class="skills-sub-title project-title">Intelli-Invest</h2>
+                        <div class="btn-container">
+
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://intelliinvest.com/'">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <div class="article-container">
+                            <img src="./ML.jpg" alt="Project 2" class="skill-img" />
+                        </div>
+                        <h2 class="skills-sub-title project-title">Neural Networks</h2>
+                        <div class="btn-container">
+
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://www.coursera.org/projects/neural-network-tensorflow'">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <div class="article-container">
+                            <img src="./stamatics.jpg" alt="Project 3" class="stamatics-img" />
+                        </div>
+                        <h2 class="skills-sub-title project-title">Stamatics</h2>
+                        <div class="btn-container">
+
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://www.iitk.ac.in/math/STAMATICS/'">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="contact">
+            <p class="section__text__p1">To meet personally </p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./email icon.webp" alt="Email icon" class="icon contact-icon email-icon"
+                        onclick="location.href='mailto:anujag23@iitk.ac.in'" />
+                </div>
+                <div class="contact-info-container">
+                    <img src="./linkedin.png" alt="LinkedIn icon" class="icon contact-icon email-icon"
+                        onclick="location.href='https://www.linkedin.com/in/anuj-agrawal-66b41b295/'" />
+                </div>
+                <div class="contact-info-container">
+                    <img src="./insta.webp" alt="LinkedIn icon" class="icon contact-icon email-icon"
+                        onclick="location.href='https://www.instagram.com/'" />
+                </div>
+                <div class="contact-info-container">
+                    <img src="./fb.webp" alt="LinkedIn icon" class="icon contact-icon email-icon"
+                        onclick="location.href='https://www.facebook.com/'" />
+                </div>
+                <div class="contact-info-container">
+                    <img src="./call.png" alt="LinkedIn icon" class="icon contact-icon email-icon"
+                        onclick="location.href='tel:7000054528'" />
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>created with love by ANUJ AGRAWAL</p>>
+
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
